@@ -8,6 +8,7 @@
     'summary': 'Plants and customers management',
     'depends': ['web'],
     'data': [
+        'data/actions.xml',
     ],
     'demo': [
     ],

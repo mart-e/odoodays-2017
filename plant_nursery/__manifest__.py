@@ -9,6 +9,7 @@
     'depends': ['web'],
     'data': [
         'data/actions.xml',
+        'data/plant_views.xml',
     ],
     'demo': [
     ],

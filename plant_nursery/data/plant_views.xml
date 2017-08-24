@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="nursery_plant_form">
+        <field name="name">Plant Form View</field>
+        <field name="model">nursery.plant</field>
+        <field name="arch" type="xml">
+            <form string="Plant">
+                <sheet>
+                    <h1>
+                        <field name="name" placeholder="Plant Name"/>
+                    </h1>
+                    <notebook>
+                        <page string="Shop">
+                            <group>
+                                <field name="price"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

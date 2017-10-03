@@ -16,6 +16,9 @@
                                 <field name="price"/>
                             </group>
                         </page>
+                        <page string="Orders">
+                            <field name="order_ids"/>
+                        </page>
                     </notebook>
                 </sheet>
             </form>

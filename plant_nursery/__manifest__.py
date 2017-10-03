@@ -10,6 +10,7 @@
     'data': [
         'data/actions.xml',
         'data/plant_views.xml',
+        'data/order_views.xml',
     ],
     'demo': [
     ],
